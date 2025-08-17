@@ -6,10 +6,22 @@ Bello is an AI-Powered Smart Campaign Assistant that helps merchants generate, e
 
 ```diff
 - Merchants struggle to write engaging push notifications and in app banners consistently 
-+ Bello generates ready to use on-brand campaign variants instantly, and then auto runs A/B testing to pick the winner
+
++ Bello generates ready to use on-brand campaign variants instantly, and then auto runs A/B testing to pick the best performing copy
 ```
 
 ## Tech Stack
+
+>**Front-End:**
+
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+<img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"/><br/><br/>
+
+
+>**Back-End:**
+
+<img src="https://img.shields.io/badge/node-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"/>
 
 ## System Architecture
 Built with:
