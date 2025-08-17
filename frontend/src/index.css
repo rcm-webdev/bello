@@ -1,0 +1,22 @@
+
+
+@font-face {
+  font-family: 'Chillax';
+  src: url('./assets/fonts/Chillax-Semibold.woff') format('woff');
+  
+}
+
+@font-face{
+  font-family: 'Synonym';
+  src: url('./assets/fonts/Synonym-Regular.woff') format('woff');
+}
+
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: bumblebee, light, dark
+}
+
+@theme {
+  --font-chillax: 'Chillax', sans-serif;
+  --font-synonym: 'Synonym', sans-serif;
+}
