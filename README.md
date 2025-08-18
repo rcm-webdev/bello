@@ -23,6 +23,7 @@ Bello is an AI-Powered Smart Campaign Assistant that helps merchants generate, e
 <img src="https://img.shields.io/badge/node-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"/>
 
+
 ## System Architecture
 Built with:
 
