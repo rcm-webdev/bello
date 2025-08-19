@@ -4,8 +4,11 @@ import doodle from "../assets/images/Chill-Time.svg";
 import Features from "../components/Features";
 import Compare from "../components/Compare";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router";
 
 const Home = () => {
+    const navigate = useNavigate();
+    
     return (
       <div className="relative min-h-screen w-screen top-0 bg-[#6C87C2]/30 bg-[radial-gradient(#ffffff33_1px,#ffff_1px)] bg-[size:20px_20px]">
         {/* Hero Section  */}
@@ -23,7 +26,7 @@ const Home = () => {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <button 
                                 className="btn btn-primary btn-lg w-full sm:w-auto" 
-                                
+                                onClick={() => navigate('/campaign')}
                             >
                                 Generate Campaign Copy
                                 
