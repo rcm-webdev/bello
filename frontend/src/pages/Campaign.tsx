@@ -51,8 +51,8 @@ const Campaign = () => {
     };
 
     return (
-        <div className="min-h-screen w-screen top-0 bg-[#6C87C2]/30 bg-[radial-gradient(#ffffff33_1px,#ffff_1px)] bg-[size:20px_20px]">
-            <div className="hero min-h-screen">
+        <div className="min-h-screen w-screen top-0 bg-[#6C87C2]/30 bg-[radial-gradient(#ffffff33_1px,#ffff_1px)] bg-[size:20px_20px] pt-20">
+            <div className="hero min-h-[calc(100vh-5rem)]">
                 <div className="hero-content text-center">
                     <div className="max-w-2xl">
                         <h1 className="text-5xl font-chillax mb-8 text-gray-800 font-bold">
@@ -66,14 +66,16 @@ const Campaign = () => {
                             <div className="card-body">
                                 <form onSubmit={handleSubmit} className="space-y-6">
                                     <div className="form-control flex flex-col items-center space-y-4">
-                                        <label className="label">
+                                        <label htmlFor="campaignGoal" className="label">
                                             <span className="label-text text-lg font-chillax">Campaign Goal</span>
                                         </label>
                                         <textarea
+                                            id="campaignGoal"
+                                            name="campaignGoal"
                                             className="textarea textarea-bordered textarea-lg"
                                             value={goal}
                                             onChange={(e) => setGoal(e.target.value)}
-                                            placeholder="Promote summer sandals, 20% off."
+                                            placeholder="Promote summer sale, 20% off."
                                             rows={4}
                                             disabled={isLoading}
                                         />
